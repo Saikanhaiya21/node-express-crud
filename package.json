@@ -1,5 +1,27 @@
 {
+  "name": "node-express-crud",
+  "version": "1.0.0",
+  "description": "CRUD operations using Node.js and the Express framework.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saikanhaiya21/node-express-crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saikanhaiya21/node-express-crud/issues"
+  },
+  "homepage": "https://github.com/Saikanhaiya21/node-express-crud#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mysql2": "^3.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
